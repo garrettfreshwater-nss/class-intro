@@ -21,6 +21,8 @@ namespace ClassIntro
 
             Console.WriteLine (mySubaru.Description);
             Console.WriteLine (myFordBronco.Description);
+
+            myFordBronco.Drive (60);
         }
     }
 }
